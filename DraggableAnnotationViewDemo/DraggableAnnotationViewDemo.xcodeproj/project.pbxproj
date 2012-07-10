@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64841E7115AB32CD0021F97D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64841E7015AB32CD0021F97D /* UIKit.framework */; };
+		64841E7315AB32CD0021F97D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64841E7215AB32CD0021F97D /* Foundation.framework */; };
+		64841E7515AB32CD0021F97D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64841E7415AB32CD0021F97D /* CoreGraphics.framework */; };
+		64841E7B15AB32CD0021F97D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64841E7915AB32CD0021F97D /* InfoPlist.strings */; };
+		64841E7D15AB32CD0021F97D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64841E7C15AB32CD0021F97D /* main.m */; };
+		64841E8115AB32CD0021F97D /* AZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64841E8015AB32CD0021F97D /* AZAppDelegate.m */; };
+		64841E8415AB32CD0021F97D /* AZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64841E8315AB32CD0021F97D /* AZViewController.m */; };
+		64841E8715AB32CD0021F97D /* AZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64841E8515AB32CD0021F97D /* AZViewController.xib */; };
+		64841E9215AB330F0021F97D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64841E9115AB330F0021F97D /* CoreLocation.framework */; };
+		64841E9415AB33130021F97D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64841E9315AB33130021F97D /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64841E6C15AB32CD0021F97D /* DraggableAnnotationViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraggableAnnotationViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64841E7015AB32CD0021F97D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64841E7215AB32CD0021F97D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64841E7415AB32CD0021F97D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64841E7815AB32CD0021F97D /* DraggableAnnotationViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DraggableAnnotationViewDemo-Info.plist"; sourceTree = "<group>"; };
+		64841E7A15AB32CD0021F97D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64841E7C15AB32CD0021F97D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64841E7E15AB32CD0021F97D /* DraggableAnnotationViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DraggableAnnotationViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		64841E7F15AB32CD0021F97D /* AZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZAppDelegate.h; sourceTree = "<group>"; };
+		64841E8015AB32CD0021F97D /* AZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZAppDelegate.m; sourceTree = "<group>"; };
+		64841E8215AB32CD0021F97D /* AZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AZViewController.h; sourceTree = "<group>"; };
+		64841E8315AB32CD0021F97D /* AZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZViewController.m; sourceTree = "<group>"; };
+		64841E8615AB32CD0021F97D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AZViewController.xib; sourceTree = "<group>"; };
+		64841E9115AB330F0021F97D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		64841E9315AB33130021F97D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64841E6915AB32CD0021F97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64841E9415AB33130021F97D /* MapKit.framework in Frameworks */,
+				64841E9215AB330F0021F97D /* CoreLocation.framework in Frameworks */,
+				64841E7115AB32CD0021F97D /* UIKit.framework in Frameworks */,
+				64841E7315AB32CD0021F97D /* Foundation.framework in Frameworks */,
+				64841E7515AB32CD0021F97D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64841E6115AB32CD0021F97D = {
+			isa = PBXGroup;
+			children = (
+				64841E9315AB33130021F97D /* MapKit.framework */,
+				64841E9115AB330F0021F97D /* CoreLocation.framework */,
+				64841E7615AB32CD0021F97D /* DraggableAnnotationViewDemo */,
+				64841E6F15AB32CD0021F97D /* Frameworks */,
+				64841E6D15AB32CD0021F97D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64841E6D15AB32CD0021F97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64841E6C15AB32CD0021F97D /* DraggableAnnotationViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64841E6F15AB32CD0021F97D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64841E7015AB32CD0021F97D /* UIKit.framework */,
+				64841E7215AB32CD0021F97D /* Foundation.framework */,
+				64841E7415AB32CD0021F97D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64841E7615AB32CD0021F97D /* DraggableAnnotationViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64841E7F15AB32CD0021F97D /* AZAppDelegate.h */,
+				64841E8015AB32CD0021F97D /* AZAppDelegate.m */,
+				64841E8215AB32CD0021F97D /* AZViewController.h */,
+				64841E8315AB32CD0021F97D /* AZViewController.m */,
+				64841E8515AB32CD0021F97D /* AZViewController.xib */,
+				64841E7715AB32CD0021F97D /* Supporting Files */,
+			);
+			path = DraggableAnnotationViewDemo;
+			sourceTree = "<group>";
+		};
+		64841E7715AB32CD0021F97D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64841E7815AB32CD0021F97D /* DraggableAnnotationViewDemo-Info.plist */,
+				64841E7915AB32CD0021F97D /* InfoPlist.strings */,
+				64841E7C15AB32CD0021F97D /* main.m */,
+				64841E7E15AB32CD0021F97D /* DraggableAnnotationViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64841E6B15AB32CD0021F97D /* DraggableAnnotationViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64841E8A15AB32CD0021F97D /* Build configuration list for PBXNativeTarget "DraggableAnnotationViewDemo" */;
+			buildPhases = (
+				64841E6815AB32CD0021F97D /* Sources */,
+				64841E6915AB32CD0021F97D /* Frameworks */,
+				64841E6A15AB32CD0021F97D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DraggableAnnotationViewDemo;
+			productName = DraggableAnnotationViewDemo;
+			productReference = 64841E6C15AB32CD0021F97D /* DraggableAnnotationViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64841E6315AB32CD0021F97D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AZ;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Azavea;
+			};
+			buildConfigurationList = 64841E6615AB32CD0021F97D /* Build configuration list for PBXProject "DraggableAnnotationViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64841E6115AB32CD0021F97D;
+			productRefGroup = 64841E6D15AB32CD0021F97D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64841E6B15AB32CD0021F97D /* DraggableAnnotationViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64841E6A15AB32CD0021F97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64841E7B15AB32CD0021F97D /* InfoPlist.strings in Resources */,
+				64841E8715AB32CD0021F97D /* AZViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64841E6815AB32CD0021F97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64841E7D15AB32CD0021F97D /* main.m in Sources */,
+				64841E8115AB32CD0021F97D /* AZAppDelegate.m in Sources */,
+				64841E8415AB32CD0021F97D /* AZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64841E7915AB32CD0021F97D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64841E7A15AB32CD0021F97D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64841E8515AB32CD0021F97D /* AZViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64841E8615AB32CD0021F97D /* en */,
+			);
+			name = AZViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64841E8815AB32CD0021F97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64841E8915AB32CD0021F97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64841E8B15AB32CD0021F97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DraggableAnnotationViewDemo/DraggableAnnotationViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "DraggableAnnotationViewDemo/DraggableAnnotationViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64841E8C15AB32CD0021F97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DraggableAnnotationViewDemo/DraggableAnnotationViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "DraggableAnnotationViewDemo/DraggableAnnotationViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64841E6615AB32CD0021F97D /* Build configuration list for PBXProject "DraggableAnnotationViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64841E8815AB32CD0021F97D /* Debug */,
+				64841E8915AB32CD0021F97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64841E8A15AB32CD0021F97D /* Build configuration list for PBXNativeTarget "DraggableAnnotationViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64841E8B15AB32CD0021F97D /* Debug */,
+				64841E8C15AB32CD0021F97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64841E6315AB32CD0021F97D /* Project object */;
+}
